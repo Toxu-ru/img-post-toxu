@@ -3,8 +3,6 @@
 # version: 0.1
 # authors: Evg
 
-register_asset 'stylesheets/previews.scss'
-
 after_initialize do
 
   Category.register_custom_field_type('list_thumbnails', :boolean)
